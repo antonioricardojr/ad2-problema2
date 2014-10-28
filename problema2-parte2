@@ -1,0 +1,16 @@
+1. Qual/quais gêneros fazem/fizeram mais sucesso em uma determinada época? Quais as tendências para o futuro?
+
+A pergunta pode interessar a produtoras musicais, indicando quais estilos estão na moda e quais as tendências musicais devem ter prioridade para se produzir mais conteúdo.
+Através da descrição de uma faixa, é possível filtrar as faixas com um hotness alto (através do atributo artist_hotttnesss) dentro de uma determinada época. 
+
+2. As temáticas das músicas podem ser influenciadas por fatos históricos?
+
+Esta pergunta ajuda a entender o quão as composições são influenciadas por fatos importantes como guerras, revoluções, avanços tecnológicos, ideologias seguidas, crenças, mitos, dentre outros aspectos. As faixas podem ser filtradas de acordo com uma ano e através do título e descrição das faixas é possível identificar palavras-chave que podem estar relacionadas com os fatos históricos.
+
+
+3. Quanto tempo artistas de um determinado gênero se mantém no auge da carreira? E em relação a outros estilos? 
+
+Esta pergunta ajuda a críticos formarem base para determinadas afirmações relacionadas ao quão duradouro é o sucesso de um dado artista num certo gênero. Esta análise utilizará métricas como gênero, ano, hotless.
+
+
+4. 
