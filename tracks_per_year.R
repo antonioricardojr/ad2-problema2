@@ -1,34 +1,10 @@
-tracks_per_year <- read.csv("~/Dropbox/ad2/ad2-problema2/tracks_per_year.txt", header=FALSE)
+#tracks_per_year$decade <- cut(tracks_per_year$V1, breaks = seq(from = 1920, to = 2010, by=10), include.lowest = TRUE);
+#tracks_per_year$decade
+#tracks_per_year_sub <- subset(tracks_per_year, as.integer(year) < 1960)
+#edit(tracks_per_year)
+#tracks_per_year_sub <- tracks_per_year[1:5000,]
+#summary(tracks_per_year_sub)
 
-
-i_decade <- 1920;
-f_decade <- 1930;
-h <- hash();
-while( i_decade < 2010 ){
-  
-  dec_tracks <- subset(tracks_per_year, strtoi(tracks_per_year$V1) < f_decade & 
-                                        strtoi(tracks_per_year$V1) >= i_decade);
-  
-  print(i_decade);
-  
-    if(!has.key(toString(i_decade), h)){
-        .set(h, toString(i_decade), nrow(dec_tracks));
-    }
-  
-  i_decade <- i_decade + 10;
-  f_decade <- f_decade + 10;
-  
-}
-
-
-
-
-
-
-print(h);
-
-
-
-
-
+#18028 observacoes.Numero de observacoes correto.
+#tracks_per_year_filtered_before1970 <- read.csv("~/Dropbox/ad2/ad2-problema2/dados/tracks_per_year_filtered_before1970.txt", quote="")
 
